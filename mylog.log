@@ -1,0 +1,278 @@
+[2021-05-29T12:12:02.002Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductApplication on DESKTOP-OULUVO9 with PID 8300 (C:\Users\Atul\Desktop\Java Contents\product\target\classes started by Atul in C:\Users\Atul\Desktop\Java Contents\product)
+[2021-05-29T12:12:02.002Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T12:12:03.003Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T12:12:04.004Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 111ms. Found 1 JPA repository interfaces.
+[2021-05-29T12:12:06.006Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8095 (http)
+[2021-05-29T12:12:06.006Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T12:12:06.006Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T12:12:07.007Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T12:12:07.007Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 4608 ms
+[2021-05-29T12:12:08.008Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T12:12:08.008Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T12:12:08.008Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T12:12:09.009Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPoolBooks - Starting...
+[2021-05-29T12:12:10.010Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPoolBooks - Start completed.
+[2021-05-29T12:12:10.010Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2021-05-29T12:12:13.013Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T12:12:13.013Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T12:12:16.016Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T12:12:16.016Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T12:12:17.017Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8095 (http) with context path ''
+[2021-05-29T12:12:17.017Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductApplication in 16.015 seconds (JVM running for 17.191)
+[2021-05-29T12:14:27.027Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8095-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T12:14:27.027Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T12:14:27.027Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-2] [547] [INFO ] Completed initialization in 47 ms
+[2021-05-29T12:14:29.029Z] [com.edusol.product.controller.ProductController] [http-nio-8095-exec-2] [33] [INFO ] [Product [id=1, name=TV, price=5000.0, category=electronics], Product [id=2, name=Mobile, price=2000.0, category=electronics], Product [id=3, name=Toy Car, price=500.0, category=Toy], Product [id=4, name=xyz, price=20.0, category=bottle]]
+[2021-05-29T13:19:31.031Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductApplication on DESKTOP-OULUVO9 with PID 1872 (C:\Users\Atul\Desktop\Java Contents\product\target\classes started by Atul in C:\Users\Atul\Desktop\Java Contents\product)
+[2021-05-29T13:19:31.031Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T13:19:32.032Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T13:19:32.032Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 95ms. Found 1 JPA repository interfaces.
+[2021-05-29T13:19:35.035Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8095 (http)
+[2021-05-29T13:19:35.035Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T13:19:35.035Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T13:19:35.035Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T13:19:35.035Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 4470 ms
+[2021-05-29T13:19:36.036Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T13:19:36.036Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T13:19:37.037Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T13:19:37.037Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPoolBooks - Starting...
+[2021-05-29T13:19:39.039Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPoolBooks - Start completed.
+[2021-05-29T13:19:39.039Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2021-05-29T13:19:44.044Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T13:19:44.044Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T13:19:46.046Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T13:19:46.046Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T13:19:47.047Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8095 (http) with context path ''
+[2021-05-29T13:19:47.047Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductApplication in 16.896 seconds (JVM running for 18.283)
+[2021-05-29T13:21:33.033Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8095-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T13:21:33.033Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T13:21:33.033Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-2] [547] [INFO ] Completed initialization in 23 ms
+[2021-05-29T13:21:34.034Z] [com.edusol.product.controller.ProductController] [http-nio-8095-exec-2] [34] [INFO ] [Product [id=1, name=TV, price=5000.0, category=electronics], Product [id=2, name=Mobile, price=2000.0, category=electronics], Product [id=3, name=Toy Car, price=500.0, category=Toy], Product [id=4, name=xyz, price=20.0, category=bottle]]
+[2021-05-29T13:23:47.047Z] [com.edusol.product.service.ProductService] [http-nio-8095-exec-5] [30] [INFO ] Product added successfully
+[2021-05-29T13:43:28.028Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductApplication on DESKTOP-OULUVO9 with PID 12576 (C:\Users\Atul\Desktop\Java Contents\product\target\classes started by Atul in C:\Users\Atul\Desktop\Java Contents\product)
+[2021-05-29T13:43:28.028Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-29T13:43:30.030Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-29T13:43:30.030Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 109ms. Found 1 JPA repository interfaces.
+[2021-05-29T13:43:33.033Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8095 (http)
+[2021-05-29T13:43:33.033Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-29T13:43:33.033Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-29T13:43:33.033Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-29T13:43:33.033Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 4375 ms
+[2021-05-29T13:43:34.034Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-29T13:43:34.034Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-29T13:43:35.035Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-29T13:43:35.035Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPoolBooks - Starting...
+[2021-05-29T13:43:41.041Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPoolBooks - Start completed.
+[2021-05-29T13:43:41.041Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2021-05-29T13:43:46.046Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-29T13:43:46.046Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-29T13:43:47.047Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-29T13:43:48.048Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-29T13:43:49.049Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8095 (http) with context path ''
+[2021-05-29T13:43:49.049Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductApplication in 20.767 seconds (JVM running for 22.298)
+[2021-05-29T13:44:24.024Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8095-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-29T13:44:24.024Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-29T13:44:24.024Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-2] [547] [INFO ] Completed initialization in 31 ms
+[2021-05-29T13:44:25.025Z] [com.edusol.product.service.ProductService] [http-nio-8095-exec-2] [31] [INFO ] Product [id=6, name=Shirt, price=1000.0, category=Cloth]
+[2021-05-29T13:44:25.025Z] [com.edusol.product.service.ProductService] [http-nio-8095-exec-2] [33] [INFO ] Product added successfully
+[2021-05-30T10:21:12.012Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting ProductApplication on DESKTOP-OULUVO9 with PID 11124 (C:\Users\Atul\Desktop\Java Contents\product\target\classes started by Atul in C:\Users\Atul\Desktop\Java Contents\product)
+[2021-05-30T10:21:12.012Z] [org.springframework.boot.SpringApplication] [main] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-30T10:21:15.015Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-30T10:21:15.015Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [187] [INFO ] Finished Spring Data repository scanning in 229ms. Found 1 JPA repository interfaces.
+[2021-05-30T10:21:21.021Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8095 (http)
+[2021-05-30T10:21:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2021-05-30T10:21:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-30T10:21:21.021Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-30T10:21:21.021Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [285] [INFO ] Root WebApplicationContext: initialization completed in 8699 ms
+[2021-05-30T10:21:23.023Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-30T10:21:23.023Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-30T10:21:23.023Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-30T10:21:24.024Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPoolBooks - Starting...
+[2021-05-30T10:21:28.028Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPoolBooks - Start completed.
+[2021-05-30T10:21:29.029Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2021-05-30T10:21:37.037Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-30T10:21:37.037Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T10:21:39.039Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-30T10:21:40.040Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [main] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-30T10:21:41.041Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8095 (http) with context path ''
+[2021-05-30T10:21:41.041Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started ProductApplication in 30.686 seconds (JVM running for 35.853)
+[2021-05-30T10:23:00.000Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8095-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-30T10:23:00.000Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-30T10:23:00.000Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-2] [547] [INFO ] Completed initialization in 70 ms
+[2021-05-30T10:23:02.002Z] [com.edusol.product.controller.ProductController] [http-nio-8095-exec-2] [34] [INFO ] [Product [id=1, name=TV, price=5000.0, category=electronics], Product [id=2, name=Mobile, price=2000.0, category=electronics], Product [id=3, name=Toy Car, price=500.0, category=Toy], Product [id=4, name=xyz, price=20.0, category=bottle], Product [id=5, name=Jeans, price=1500.0, category=Cloth], Product [id=6, name=Shirt, price=1000.0, category=Cloth]]
+[2021-05-30T10:24:01.001Z] [com.edusol.product.controller.ProductController] [http-nio-8095-exec-4] [34] [INFO ] [Product [id=1, name=TV, price=5000.0, category=electronics], Product [id=2, name=Mobile, price=2000.0, category=electronics], Product [id=3, name=Toy Car, price=500.0, category=Toy], Product [id=4, name=xyz, price=20.0, category=bottle], Product [id=5, name=Jeans, price=1500.0, category=Cloth], Product [id=6, name=Shirt, price=1045.0, category=Cloth]]
+[2021-05-30T10:26:28.028Z] [com.edusol.product.service.ProductService] [http-nio-8095-exec-7] [54] [ERROR] Data not found
+[2021-05-30T10:40:51.051Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ProductApplication on DESKTOP-OULUVO9 with PID 124 (C:\Users\Atul\Desktop\Java Contents\product\target\classes started by Atul in C:\Users\Atul\Desktop\Java Contents\product)
+[2021-05-30T10:40:51.051Z] [org.springframework.boot.SpringApplication] [restartedMain] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-30T10:40:51.051Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] The Class-Path manifest attribute in C:\Users\Atul\.m2\repository\com\oracle\database\jdbc\ojdbc8\19.3.0.0\ojdbc8-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Atul/.m2/repository/com/oracle/database/jdbc/ojdbc8/19.3.0.0/oraclepki.jar
+[2021-05-30T10:40:51.051Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] The Class-Path manifest attribute in C:\Users\Atul\.m2\repository\com\oracle\database\security\oraclepki\19.3.0.0\oraclepki-19.3.0.0.jar referenced one or more files that do not exist: file:/C:/Users/Atul/.m2/repository/com/oracle/database/security/oraclepki/19.3.0.0/osdt_core.jar,file:/C:/Users/Atul/.m2/repository/com/oracle/database/security/oraclepki/19.3.0.0/osdt_cert.jar,file:/C:/Users/Atul/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_core.jar,file:/C:/Users/Atul/.m2/repository/com/oracle/database/security/oraclepki/oracle.osdt/osdt_cert.jar
+[2021-05-30T10:40:51.051Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2021-05-30T10:40:51.051Z] [org.springframework.boot.logging.DeferredLog] [restartedMain] [225] [INFO ] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2021-05-30T10:40:54.054Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-30T10:40:55.055Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [187] [INFO ] Finished Spring Data repository scanning in 338ms. Found 1 JPA repository interfaces.
+[2021-05-30T10:40:59.059Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8095 (http)
+[2021-05-30T10:40:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-05-30T10:40:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-30T10:40:59.059Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-30T10:40:59.059Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 8176 ms
+[2021-05-30T10:40:59.059Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2021-05-30T10:41:02.002Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2021-05-30T10:41:02.002Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [restartedMain] [73] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@localhost:1521:xe'
+[2021-05-30T10:41:03.003Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-30T10:41:04.004Z] [org.hibernate.Version] [restartedMain] [44] [INFO ] HHH000412: Hibernate ORM core version 5.4.30.Final
+[2021-05-30T10:41:04.004Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [restartedMain] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2021-05-30T10:41:05.005Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2021-05-30T10:41:09.009Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-30T10:41:09.009Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T10:41:09.009Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-05-30T10:41:11.011Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-30T10:41:12.012Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-30T10:41:13.013Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8095 (http) with context path ''
+[2021-05-30T10:41:13.013Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ProductApplication in 23.426 seconds (JVM running for 25.211)
+[2021-05-30T10:42:25.025Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8095-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-30T10:42:25.025Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-30T10:42:25.025Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-1] [547] [INFO ] Completed initialization in 40 ms
+[2021-05-30T10:42:27.027Z] [com.edusol.product.controller.ProductController] [http-nio-8095-exec-1] [34] [INFO ] [Product [id=1, name=TV, price=5000.0, category=electronics], Product [id=2, name=Mobile, price=2000.0, category=electronics], Product [id=3, name=Toy Car, price=500.0, category=Toy], Product [id=4, name=xyz, price=20.0, category=bottle], Product [id=5, name=Jeans, price=1500.0, category=Cloth], Product [id=6, name=Shirt, price=1045.0, category=Cloth]]
+[2021-05-30T10:43:49.049Z] [com.edusol.product.service.ProductService] [http-nio-8095-exec-5] [59] [INFO ] Product updated successfully
+[2021-05-30T10:44:11.011Z] [com.edusol.product.controller.ProductController] [http-nio-8095-exec-6] [34] [INFO ] [Product [id=1, name=TV, price=5000.0, category=electronics], Product [id=2, name=Mobile, price=2000.0, category=electronics], Product [id=3, name=Toy Car, price=500.0, category=Toy], Product [id=4, name=xyz, price=20.0, category=bottle], Product [id=5, name=Jeans, price=1745.0, category=Cloth], Product [id=6, name=Shirt, price=1045.0, category=Cloth]]
+[2021-05-30T10:45:08.008Z] [com.edusol.product.service.ProductService] [http-nio-8095-exec-7] [54] [ERROR] Unable to find com.edusol.product.model.Product with id 10
+[2021-05-30T10:48:55.055Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-10] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-30T10:48:55.055Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-10] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T10:48:55.055Z] [com.zaxxer.hikari.HikariDataSource] [Thread-10] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2021-05-30T10:48:55.055Z] [com.zaxxer.hikari.HikariDataSource] [Thread-10] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2021-05-30T10:48:59.059Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ProductApplication on DESKTOP-OULUVO9 with PID 124 (C:\Users\Atul\Desktop\Java Contents\product\target\classes started by Atul in C:\Users\Atul\Desktop\Java Contents\product)
+[2021-05-30T10:48:59.059Z] [org.springframework.boot.SpringApplication] [restartedMain] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-30T10:49:01.001Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-30T10:49:01.001Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [187] [INFO ] Finished Spring Data repository scanning in 42ms. Found 1 JPA repository interfaces.
+[2021-05-30T10:49:02.002Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8095 (http)
+[2021-05-30T10:49:02.002Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-05-30T10:49:02.002Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-30T10:49:02.002Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-30T10:49:02.002Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 3330 ms
+[2021-05-30T10:49:02.002Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2021-05-30T10:49:02.002Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2021-05-30T10:49:02.002Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [restartedMain] [73] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@localhost:1521:xe'
+[2021-05-30T10:49:03.003Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-30T10:49:03.003Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2021-05-30T10:49:04.004Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-30T10:49:04.004Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T10:49:04.004Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-05-30T10:49:04.004Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-30T10:49:05.005Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-30T10:49:05.005Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8095 (http) with context path ''
+[2021-05-30T10:49:05.005Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ProductApplication in 7.014 seconds (JVM running for 497.275)
+[2021-05-30T10:49:05.005Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-05-30T10:49:53.053Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8095-exec-3] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-30T10:49:53.053Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-3] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-30T10:49:53.053Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-3] [547] [INFO ] Completed initialization in 18 ms
+[2021-05-30T10:49:53.053Z] [com.edusol.product.controller.ProductController] [http-nio-8095-exec-3] [34] [INFO ] [Product [id=1, name=TV, price=5000.0, category=electronics], Product [id=2, name=Mobile, price=2000.0, category=electronics], Product [id=3, name=Toy Car, price=500.0, category=Toy], Product [id=4, name=xyz, price=20.0, category=bottle], Product [id=5, name=Jeans, price=1745.0, category=Cloth], Product [id=6, name=Shirt, price=1045.0, category=Cloth]]
+[2021-05-30T10:50:31.031Z] [com.edusol.product.service.ProductService] [http-nio-8095-exec-2] [67] [ERROR] No class com.edusol.product.model.Product entity with id 9 exists!
+[2021-05-30T11:06:17.017Z] [com.edusol.product.controller.ProductController] [http-nio-8095-exec-5] [34] [INFO ] [Product [id=1, name=TV, price=5000.0, category=electronics], Product [id=2, name=Mobile, price=2000.0, category=electronics], Product [id=3, name=Toy Car, price=500.0, category=Toy], Product [id=4, name=xyz, price=20.0, category=bottle], Product [id=5, name=Jeans, price=1745.0, category=Cloth], Product [id=6, name=Shirt, price=1045.0, category=Cloth]]
+[2021-05-30T11:17:44.044Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-19] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-30T11:17:44.044Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-19] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T11:17:44.044Z] [com.zaxxer.hikari.HikariDataSource] [Thread-19] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2021-05-30T11:17:44.044Z] [com.zaxxer.hikari.HikariDataSource] [Thread-19] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2021-05-30T11:17:55.055Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ProductApplication on DESKTOP-OULUVO9 with PID 124 (C:\Users\Atul\Desktop\Java Contents\product\target\classes started by Atul in C:\Users\Atul\Desktop\Java Contents\product)
+[2021-05-30T11:17:55.055Z] [org.springframework.boot.SpringApplication] [restartedMain] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-30T11:17:56.056Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-30T11:17:56.056Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [187] [INFO ] Finished Spring Data repository scanning in 40ms. Found 1 JPA repository interfaces.
+[2021-05-30T11:18:01.001Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8095 (http)
+[2021-05-30T11:18:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-05-30T11:18:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-30T11:18:01.001Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-30T11:18:01.001Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 6509 ms
+[2021-05-30T11:18:02.002Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2021-05-30T11:18:02.002Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2021-05-30T11:18:02.002Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [restartedMain] [73] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@localhost:1521:xe'
+[2021-05-30T11:18:02.002Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-30T11:18:02.002Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2021-05-30T11:18:04.004Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-30T11:18:04.004Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T11:18:04.004Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-05-30T11:18:05.005Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-30T11:18:05.005Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-30T11:18:05.005Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8095 (http) with context path ''
+[2021-05-30T11:18:05.005Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ProductApplication in 10.978 seconds (JVM running for 2237.54)
+[2021-05-30T11:18:05.005Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-05-30T11:18:30.030Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8095-exec-5] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2021-05-30T11:18:30.030Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-5] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2021-05-30T11:18:30.030Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8095-exec-5] [547] [INFO ] Completed initialization in 26 ms
+[2021-05-30T11:18:30.030Z] [com.edusol.product.service.ProductService] [http-nio-8095-exec-5] [57] [ERROR] Unable to find com.edusol.product.model.Product with id 10
+[2021-05-30T11:26:18.018Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-29] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-30T11:26:18.018Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-29] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T11:26:18.018Z] [com.zaxxer.hikari.HikariDataSource] [Thread-29] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2021-05-30T11:26:18.018Z] [com.zaxxer.hikari.HikariDataSource] [Thread-29] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2021-05-30T11:26:19.019Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ProductApplication on DESKTOP-OULUVO9 with PID 124 (C:\Users\Atul\Desktop\Java Contents\product\target\classes started by Atul in C:\Users\Atul\Desktop\Java Contents\product)
+[2021-05-30T11:26:19.019Z] [org.springframework.boot.SpringApplication] [restartedMain] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-30T11:26:20.020Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-30T11:26:20.020Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [187] [INFO ] Finished Spring Data repository scanning in 40ms. Found 1 JPA repository interfaces.
+[2021-05-30T11:26:21.021Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8095 (http)
+[2021-05-30T11:26:21.021Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-05-30T11:26:21.021Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-30T11:26:21.021Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-30T11:26:21.021Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 2111 ms
+[2021-05-30T11:26:22.022Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2021-05-30T11:26:22.022Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2021-05-30T11:26:22.022Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [restartedMain] [73] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@localhost:1521:xe'
+[2021-05-30T11:26:22.022Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-30T11:26:22.022Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2021-05-30T11:26:24.024Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-30T11:26:24.024Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T11:26:24.024Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-05-30T11:26:24.024Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-30T11:26:25.025Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-30T11:26:25.025Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8095 (http) with context path ''
+[2021-05-30T11:26:25.025Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ProductApplication in 5.842 seconds (JVM running for 2737.097)
+[2021-05-30T11:26:25.025Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-05-30T12:49:07.007Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-37] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-30T12:49:08.008Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-37] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T12:49:08.008Z] [com.zaxxer.hikari.HikariDataSource] [Thread-37] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2021-05-30T12:49:08.008Z] [com.zaxxer.hikari.HikariDataSource] [Thread-37] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2021-05-30T12:49:16.016Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ProductApplication on DESKTOP-OULUVO9 with PID 124 (C:\Users\Atul\Desktop\Java Contents\product\target\classes started by Atul in C:\Users\Atul\Desktop\Java Contents\product)
+[2021-05-30T12:49:16.016Z] [org.springframework.boot.SpringApplication] [restartedMain] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-30T12:49:17.017Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-30T12:49:17.017Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [187] [INFO ] Finished Spring Data repository scanning in 34ms. Found 1 JPA repository interfaces.
+[2021-05-30T12:49:19.019Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8095 (http)
+[2021-05-30T12:49:19.019Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-05-30T12:49:19.019Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-30T12:49:19.019Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-30T12:49:19.019Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 3027 ms
+[2021-05-30T12:49:19.019Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2021-05-30T12:49:20.020Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2021-05-30T12:49:20.020Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [restartedMain] [73] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@localhost:1521:xe'
+[2021-05-30T12:49:20.020Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-30T12:49:20.020Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2021-05-30T12:49:23.023Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-30T12:49:23.023Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T12:49:23.023Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-05-30T12:49:24.024Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-30T12:49:24.024Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-30T12:49:24.024Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8095 (http) with context path ''
+[2021-05-30T12:49:24.024Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ProductApplication in 9.68 seconds (JVM running for 7716.518)
+[2021-05-30T12:49:24.024Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
+[2021-05-30T12:51:26.026Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [Thread-44] [218] [INFO ] Shutting down ExecutorService 'applicationTaskExecutor'
+[2021-05-30T12:51:26.026Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [Thread-44] [601] [INFO ] Closing JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T12:51:26.026Z] [com.zaxxer.hikari.HikariDataSource] [Thread-44] [350] [INFO ] HikariPoolBooks - Shutdown initiated...
+[2021-05-30T12:51:26.026Z] [com.zaxxer.hikari.HikariDataSource] [Thread-44] [352] [INFO ] HikariPoolBooks - Shutdown completed.
+[2021-05-30T12:51:26.026Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [55] [INFO ] Starting ProductApplication on DESKTOP-OULUVO9 with PID 124 (C:\Users\Atul\Desktop\Java Contents\product\target\classes started by Atul in C:\Users\Atul\Desktop\Java Contents\product)
+[2021-05-30T12:51:26.026Z] [org.springframework.boot.SpringApplication] [restartedMain] [648] [INFO ] No active profile set, falling back to default profiles: default
+[2021-05-30T12:51:27.027Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [127] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2021-05-30T12:51:27.027Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [restartedMain] [187] [INFO ] Finished Spring Data repository scanning in 16ms. Found 1 JPA repository interfaces.
+[2021-05-30T12:51:27.027Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [108] [INFO ] Tomcat initialized with port(s): 8095 (http)
+[2021-05-30T12:51:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting service [Tomcat]
+[2021-05-30T12:51:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.45]
+[2021-05-30T12:51:27.027Z] [org.apache.juli.logging.DirectJDKLog] [restartedMain] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2021-05-30T12:51:27.027Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [restartedMain] [285] [INFO ] Root WebApplicationContext: initialization completed in 837 ms
+[2021-05-30T12:51:27.027Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [110] [INFO ] HikariPoolBooks - Starting...
+[2021-05-30T12:51:27.027Z] [com.zaxxer.hikari.HikariDataSource] [restartedMain] [123] [INFO ] HikariPoolBooks - Start completed.
+[2021-05-30T12:51:27.027Z] [org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration] [restartedMain] [73] [INFO ] H2 console available at '/h2-console'. Database available at 'jdbc:oracle:thin:@localhost:1521:xe'
+[2021-05-30T12:51:27.027Z] [org.hibernate.jpa.internal.util.LogHelper] [restartedMain] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2021-05-30T12:51:27.027Z] [org.hibernate.dialect.Dialect] [restartedMain] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.Oracle12cDialect
+[2021-05-30T12:51:29.029Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [restartedMain] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2021-05-30T12:51:29.029Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [restartedMain] [419] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2021-05-30T12:51:29.029Z] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [restartedMain] [58] [INFO ] LiveReload server is running on port 35729
+[2021-05-30T12:51:29.029Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [restartedMain] [220] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2021-05-30T12:51:29.029Z] [org.springframework.scheduling.concurrent.ExecutorConfigurationSupport] [restartedMain] [181] [INFO ] Initializing ExecutorService 'applicationTaskExecutor'
+[2021-05-30T12:51:29.029Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [restartedMain] [220] [INFO ] Tomcat started on port(s): 8095 (http) with context path ''
+[2021-05-30T12:51:29.029Z] [org.springframework.boot.StartupInfoLogger] [restartedMain] [61] [INFO ] Started ProductApplication in 2.85 seconds (JVM running for 7841.213)
+[2021-05-30T12:51:29.029Z] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [restartedMain] [63] [INFO ] Condition evaluation unchanged
